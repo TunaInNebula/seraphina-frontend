@@ -1,0 +1,239 @@
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(125, 35, 98));
+}
+
+.navbar img {
+    width: 100%;
+}
+
+.navbar .navbar-brand a{
+    background-color: aliceblue;
+    width: 10%;
+}
+.navbar {
+    justify-content: center;
+    text-align: center;
+    transition: background-image 2.5s ease; 
+}
+
+.navbar:hover {
+    background-image: linear-gradient(rgba(125, 35, 98, 0.234), rgba(0, 0, 0, 0));
+}
+
+
+.navbar-nav {
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 30px; /* Butonun kenar yuvarlaklığı */
+    box-shadow: 0 10px 15px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}
+
+.navbar-nav .nav-link {
+    color: #c6d9e2 !important; /* Yazı rengini beyaz yap */
+    transition: 0.5s;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 0px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 3px; /* Butonun kenar yuvarlaklığı */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #07080800;
+    color: #d8418a !important; /* Yazı rengini beyaz yap */
+
+}
+
+.navbar button {
+    color: #c6d9e2;
+    border-color: #c6d9e2;
+    transition: 0.5s;
+}
+
+.navbar button:hover {
+    color: #d8418a;
+    background-color: #070808;
+    border-color: #d8418a;
+}
+
+#search-btn:active {
+    background-color: black;/* İstediğiniz renk */;
+    border-color: #d8418a;/* İstediğiniz renk */;
+    /* Diğer gerekli stil özellikleri */
+}
+
+/* Butona tıklandığında ışık efekti */
+.btn-click-effect {
+    transition: box-shadow 0.3s ease;
+}
+
+.btn-click-effect:focus,
+.btn-click-effect:active {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* Burada ışık efektinin rengini ve yayılma miktarını belirleyebilirsiniz */
+}
+
+
+.clearfix {
+    margin-top: 40px;
+    color: aliceblue;
+    border-left: none; /* Sol taraftaki sınırı kaldırır */
+    border-right: none; /* Sağ taraftaki sınırı kaldırır */
+    border-top: 1px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-radius: 30px;
+}
+
+
+.clearfix p {
+    font-size: 25px;
+    margin-top: 40px;
+    color: aliceblue;
+    padding-left: 40px;
+}
+.clearfix img {
+    width: 30%;
+    border-radius: 30px;
+    border: 0px solid #d8418a; /* Mor rengin hex kodu */
+    box-shadow: 0 0 100px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+}
+
+
+.clearfix button {
+    width: 250px;
+    height: 75px;
+    border-top: 1px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    margin-top: 30px;
+    margin-left:450px;
+    margin-bottom: 200px;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 30px; /* Butonun kenar yuvarlaklığı */
+    background-color: #090608;
+    transition: 0.5s;
+    box-shadow: 0 0 30px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}
+
+.clearfix button:hover {
+    border-top: 1px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 20px; /* Butonun kenar yuvarlaklığı */
+    background-color: #090608;
+    transition: 0.5s;
+    box-shadow: 0 0 80px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}
+
+.clearfix button:active {
+    color: rgb(11, 15, 18); /* Butonun yazı rengi */
+
+    background-color: #090909; /* Buton tıklandığında arka plan rengi */
+
+}
+
+.row .card {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 40px 40px 10px 10px; /* Butonun kenar yuvarlaklığı */
+    background-color: #090608;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+}
+
+.row .card img {
+    border-radius: 10px 10px 30px 30px;
+    box-shadow: 0 0 80px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+    transition: 0.5s;
+
+}
+.row .card img:hover {
+    scale: 1.2;
+    box-shadow: 0 0 0px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+
+}
+
+.row .card .btn {
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 10px; /* Butonun kenar yuvarlaklığı */
+    background-color: #090608;
+    transition: 0.5s;
+    box-shadow: 0 0 40px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+}
+
+.row .card .btn:hover {
+    border-radius:  15px;
+}
+
+.row h1 {
+    font-size: 100px;
+    background-image: linear-gradient(to right,#b71882, #c6d9e2 ); /* Gradient stilini ekler */
+    -webkit-background-clip: text; /* Metni gradiente göre keser */
+    color: transparent; /* Metni saydam yapar */
+}
+
+.row #formore {
+    width: 250px;
+    height: 75px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 140px;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 30px; /* Butonun kenar yuvarlaklığı */
+    background-color: #090608;
+    transition: 0.5s;
+    box-shadow: 0 -10px 30px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+}
+
+.row #formore:hover {
+    border-radius: 20px;
+    box-shadow: 0 -10px 20px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}
+
+.row #formore a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.carousel {
+    color: #070808;
+    border-radius: 30px;
+    margin-left: 200px;
+    width: 50%;
+    box-shadow: 0 -10px 30px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}

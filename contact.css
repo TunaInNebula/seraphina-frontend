@@ -1,0 +1,86 @@
+body {
+    background-image: url(/images/logo-white.png);
+}
+
+.navbar img {
+    width: 100%;
+}
+
+.navbar .navbar-brand a{
+    background-color: aliceblue;
+    width: 10%;
+}
+.navbar {
+    justify-content: center;
+    text-align: center;
+    transition: background-image 2.5s ease; 
+}
+
+.navbar:hover {
+    background-image: linear-gradient(rgba(125, 35, 98, 0.234), rgba(0, 0, 0, 0));
+}
+
+
+.navbar-nav {
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 1px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 30px; /* Butonun kenar yuvarlaklığı */
+    box-shadow: 0 10px 15px rgba(224, 221, 226, 0.5); /* Mor rengin hafif bir gölgesi */
+
+}
+
+.navbar-nav .nav-link {
+    color: #c6d9e2 !important; /* Yazı rengini beyaz yap */
+    transition: 0.5s;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 0px solid #d8418a; /* Üst sınır */
+    border-bottom: 0px solid #d8418a; /* Alt sınır */
+    border-left: none;
+    border-right: none;
+    color: aliceblue; /* Butonun yazı rengi */
+    border-radius: 3px; /* Butonun kenar yuvarlaklığı */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #07080800;
+    color: #d8418a !important; /* Yazı rengini beyaz yap */
+
+}
+
+.navbar button {
+    color: #c6d9e2;
+    border-color: #c6d9e2;
+    transition: 0.5s;
+}
+
+.navbar button:hover {
+    color: #d8418a;
+    background-color: #070808;
+    border-color: #d8418a;
+}
+
+#search-btn:active {
+    background-color: black;/* İstediğiniz renk */;
+    border-color: #d8418a;/* İstediğiniz renk */;
+    /* Diğer gerekli stil özellikleri */
+}
+
+/* Butona tıklandığında ışık efekti */
+.btn-click-effect {
+    transition: box-shadow 0.3s ease;
+}
+
+.btn-click-effect:focus,
+.btn-click-effect:active {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); /* Burada ışık efektinin rengini ve yayılma miktarını belirleyebilirsiniz */
+}
