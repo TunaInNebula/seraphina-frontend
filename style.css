@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/logo-white.png);
+    background-image: url("https://github.com/TunaInNebula/seraphina-frontend/blob/main/images/logo-white.png?raw=true");
 }
 
 .navbar img {
